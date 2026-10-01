@@ -1,9 +1,9 @@
 import { test, expect } from "@playwright/test";
 import { getVotingMessage } from "../practice/voting-age";
 
-const CAN_VOTE_MESSAGE = "You can vote.";
-const CAN_NOT_VOTE_MESSAGE = "You can't vote yet.";
-const ERROR_MESSAGE = "Not a valid number.";
+const CAN_VOTE_MESSAGE = "Ви можете голосувати.";
+const CAN_NOT_VOTE_MESSAGE = "Ви ще не можете голосувати.";
+const ERROR_MESSAGE = "Невалідне число.";
 
 test(`1 returns ${CAN_NOT_VOTE_MESSAGE}`, () => {
     expect(getVotingMessage(1)).toBe(CAN_NOT_VOTE_MESSAGE);
