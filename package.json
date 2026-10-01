@@ -1,0 +1,21 @@
+{
+  "name": "js-ts-practice-pw-e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z3L3NIY/js-ts-practice-pw-e2e.git"
+  },
+  "author": "Serhii Husenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Z3L3NIY/js-ts-practice-pw-e2e/issues"
+  },
+  "homepage": "https://github.com/Z3L3NIY/js-ts-practice-pw-e2e#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3"
+  }
+}
